@@ -1,10 +1,10 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9BF7&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Emiliano+Balderas+%F0%9F%91%8B;PhD+Researcher+%7C+Bioengineer+%7C+IBt-UNAM;Cell+Culture+%26+Upstream+Bioprocessing;Python+%7C+Data+Science+%7C+Biotech+Tools)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9BF7&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Emiliano+Balderas+%F0%9F%91%8B;Bioengineer+%7C+PhD+Researcher+%7C+IBt-UNAM;Upstream+Bioprocessing+%26+Cell+Culture;Data+Science+%7C+Python+%7C+Biotech+Tools)
 
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_my_site-007AFF?style=for-the-badge)](https://ebalderasr.github.io/ebalderasr/)
 [![Institution](https://img.shields.io/badge/IBt--UNAM-Biochemical_Sciences_PhD-0066CC?style=for-the-badge)](https://www.ibt.unam.mx/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-emilianobalderas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emilianobalderas/)
-[![Location](https://img.shields.io/badge/México-🇲🇽-green?style=for-the-badge)](https://en.wikipedia.org/wiki/Mexico)
 [![Email](https://img.shields.io/badge/Email-ebalderas%40live.com.mx-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ebalderas@live.com.mx)
 
 </div>
@@ -13,12 +13,15 @@
 
 ## About Me
 
-PhD student in Biochemical Sciences at **Instituto de Biotecnología, UNAM**, specializing in **upstream bioprocessing** and **mammalian cell culture** for therapeutic recombinant protein production. I bridge wet-lab expertise with computational tools to optimize biopharmaceutical manufacturing.
+Bioengineer and PhD candidate in Biochemical Sciences at **Instituto de Biotecnología, UNAM**, with hands-on expertise in **upstream bioprocessing**, **mammalian cell culture (CHO)**, and **biopharmaceutical process development**. I combine bench work with computational tools to drive data-informed decisions in bioprocess optimization.
 
-- 🔬 Optimizing **CHO cell productivity** in fed-batch and perfusion bioreactors
-- 📊 Building **data-driven pipelines** for bioprocess analytics
-- ⚙️ Exploring **automation and control** strategies for bioreactor monitoring
-- 🤝 Open to collaboration on **bioengineering tools**, **bioprocess modeling**, and **therapeutic protein production**
+My work spans from **fed-batch and perfusion bioreactor** operation to building end-to-end **data pipelines**, analytical dashboards, and laboratory automation tools — bridging the gap between wet-lab science and software engineering.
+
+- 🔬 **Bioprocess Development** — CHO cell culture optimization for recombinant protein production in fed-batch and perfusion bioreactors
+- 📊 **Data Science** — Python-based pipelines for bioprocess data analysis, statistical modeling, and visualization
+- ⚙️ **Lab Automation** — Tools for process monitoring, control strategy design, and analytical workflows
+- 🧬 **Therapeutic Proteins & Cell Therapy** — Research on CAR-T cell processes and metabolic engineering strategies
+- 🤝 Open to roles in **biopharma**, **bioprocess data science**, **process analytical technology (PAT)**, and **upstream R&D**
 
 ---
 
@@ -92,9 +95,10 @@ PhD student in Biochemical Sciences at **Instituto de Biotecnología, UNAM**, sp
 
 ## Contact
 
+- 🌐 Portfolio: [ebalderasr.github.io/ebalderasr](https://ebalderasr.github.io/ebalderasr/)
 - 💼 LinkedIn: [linkedin.com/in/emilianobalderas](https://www.linkedin.com/in/emilianobalderas/)
 - 📧 Personal: [ebalderas@live.com.mx](mailto:ebalderas@live.com.mx)
-- 📧 Institucional: [emiliano.balderas@ibt.unam.mx](mailto:emiliano.balderas@ibt.unam.mx)
+- 📧 Institutional: [emiliano.balderas@ibt.unam.mx](mailto:emiliano.balderas@ibt.unam.mx)
 
 ---
 
