@@ -27,6 +27,7 @@ PhD student in Biochemical Sciences at **Instituto de Biotecnología, UNAM**, sp
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -36,14 +37,26 @@ PhD student in Biochemical Sciences at **Instituto de Biotecnología, UNAM**, sp
 
 ## Featured Projects
 
+### 🧬 Standalone Tools
+
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [**Clonalyzer-2**](https://github.com/ebalderasr/Clonalyzer-2) | Browser-based kinetics analysis for CHO fed-batch cultures | HTML, JS |
+| [**Kinetic-Drive**](https://github.com/ebalderasr/Kinetic-Drive) | Interactive app for mammalian cell culture characterization (CHO-focused) | HTML, JS |
+| [**CellBlock**](https://github.com/ebalderasr/CellBlock) | High-performance laboratory equipment management system | JavaScript |
 | [**BioReact**](https://github.com/ebalderasr/BioReact) | CSTR bioreactor simulator — Monod model & Runge-Kutta integration | Python, Jupyter |
 | [**CHOFlow**](https://github.com/ebalderasr/CHOFlow) | Automated flow cytometry data analysis pipeline for CHO cells | Python, Jupyter |
-| [**Clonalyzer-2**](https://github.com/ebalderasr/Clonalyzer-2) | Browser-based fed-batch kinetics analysis tool | HTML |
-| [**CellSplit**](https://github.com/ebalderasr/CellSplit) | Precision cell passaging calculator — offline-ready PWA | HTML, JS |
-| [**DiluteIt**](https://github.com/ebalderasr/DiluteIt) | Universal lab dilution calculator PWA (C1V1 = C2V2) | HTML, JS |
-| [**Adaptive-Quiz-LLM**](https://github.com/ebalderasr/Adaptive-Quiz-LLM-Mastery) | Dependency-free adaptive quiz on LLM fundamentals | HTML |
+
+### 🧪 HostCell Lab Suite
+
+> A collection of offline-ready PWA tools for bench-side bioprocess workflows.
+
+| Tool | Description |
+|------|-------------|
+| [**CellSplit**](https://github.com/ebalderasr/CellSplit) | Precision cell passaging calculator from Neubauer counts |
+| [**PulseGrowth**](https://github.com/ebalderasr/PulseGrowth) | Growth kinetics (μ, doubling time, IVCD) and feed corrections |
+| [**MolarPrep**](https://github.com/ebalderasr/MolarPrep) | Molarity calculations, stock solution prep, and dilution planning |
+| [**DiluteIt**](https://github.com/ebalderasr/DiluteIt) | Universal dilution calculator (C1V1 = C2V2) for lab workflows |
 
 ---
 
