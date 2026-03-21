@@ -86,8 +86,10 @@ My work spans from **fed-batch and perfusion bioreactor** operation to building 
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ebalderasr&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ebalderasr&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=false)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ebalderasr&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=ebalderasr&theme=tokyonight&hide_border=true)
 
 </div>
 
