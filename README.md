@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9BF7&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Emiliano+Balderas+%F0%9F%91%8B;Bioengineer+%7C+PhD+Researcher+%7C+IBt-UNAM;Upstream+Bioprocessing+%26+Cell+Culture;Data+Science+%7C+Python+%7C+Biotech+Tools)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9BF7&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Emiliano+Balderas+%F0%9F%91%8B;Bioengineer+%7C+PhD+Candidate+%7C+IBt-UNAM;CHO+%7C+S.+cerevisiae+%7C+E.+coli+%7C+Bioreactors;Data+Science+%7C+Python+%7C+Full-Stack+Lab+Tools;Community+Leader+%7C+Open+Source+Builder)
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_my_site-007AFF?style=for-the-badge)](https://ebalderasr.github.io/ebalderasr/)
 [![Institution](https://img.shields.io/badge/IBt--UNAM-Biochemical_Sciences_PhD-0066CC?style=for-the-badge)](https://www.ibt.unam.mx/)
@@ -13,19 +13,30 @@
 
 ## About Me
 
-Bioengineer and PhD candidate in Biochemical Sciences at **Instituto de Biotecnología, UNAM**, with hands-on expertise in **upstream bioprocessing**, **mammalian cell culture (CHO)**, and **biopharmaceutical process development**. I combine bench work with computational tools to drive data-informed decisions in bioprocess optimization.
+I am a **Bioengineer and PhD Candidate** in Biochemical Sciences at **Instituto de Biotecnología, UNAM**, working under the supervision of **Dr. Tonatiuh Ramírez**. My research sits at the intersection of upstream bioprocessing, molecular biology, and computational science — from shake flasks and bioreactors to full-stack web applications built for the bench.
 
-My work spans from **fed-batch and perfusion bioreactor** operation to building end-to-end **data pipelines**, analytical dashboards, and laboratory automation tools — bridging the gap between wet-lab science and software engineering.
+My trajectory has been one of deliberate convergence: hands-on expertise in **CHO, _S. cerevisiae_**, and **_E. coli_** systems, combined with a growing fluency in Python, data pipelines, and AI-assisted web development. I build tools that transform repetitive, error-prone lab calculations into reliable, reproducible workflows — because good science deserves good software.
 
-- 🔬 **Bioprocess Development** — CHO cell culture optimization for recombinant protein production in fed-batch and perfusion bioreactors
-- 📊 **Data Science** — Python-based pipelines for bioprocess data analysis, statistical modeling, and visualization
-- ⚙️ **Lab Automation** — Tools for process monitoring, control strategy design, and analytical workflows
-- 🧬 **Therapeutic Proteins & Cell Therapy** — Research on CAR-T cell processes and metabolic engineering strategies
-- 🤝 Open to roles in **biopharma**, **bioprocess data science**, **process analytical technology (PAT)**, and **upstream R&D**
+Beyond the bench and the keyboard, I served for **3+ years as Coordinator** of the **Mexican Bioimaging Workshops (MBW)** — a high-impact initiative funded by the **Chan Zuckerberg Initiative (CZI)**, Leica, UNAM, and CONACYT — helping democratize bioimaging access across Mexico.
+
+- **Upstream Bioprocessing** — CHO cell culture optimization for recombinant protein production in batch and fed-batch processes (shake flasks & stirred-tank bioreactors)
+- **Molecular Biology** — Mutant construction and plasmid assembly for *E. coli* and *S. cerevisiae*; metabolic engineering for xylose-to-ethanol conversion
+- **Data Science & Lab Tools** — Python pipelines (pandas, matplotlib, seaborn), end-to-end data workflows, and offline-ready PWA tools for bench-side use
+- **Community Leadership** — MBW Coordinator (3+ years), CZI-funded initiative to democratize bioimaging across Mexico
+- Open to collaborations in **biopharma**, **bioprocess data science**, **process analytical technology (PAT)**, and **upstream R&D**
 
 ---
 
 ## Tech Stack
+
+**Bioprocess & Molecular Biology**
+
+| Domain | Expertise |
+|--------|-----------|
+| Cell Systems | CHO · *S. cerevisiae* · *E. coli* |
+| Bioprocess Modes | Batch · Fed-batch · Shake flasks · Stirred-tank bioreactors |
+| Molecular Biology | Mutant construction · Plasmid assembly (bacteria & yeast) |
+| Analytics | YSI 2950 · Flow cytometry (FlowJo) · Neubauer counting · IVCD |
 
 **Data Science & ML**
 
@@ -54,6 +65,20 @@ My work spans from **fed-batch and perfusion bioreactor** operation to building 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+---
+
+## Current Research
+
+**CHO Cell Engineering for Biotherapeutic Production**  
+*IBt-UNAM · Lab of Cellular Engineering and Biocatalysis · Dr. Tonatiuh Ramírez*
+
+My doctoral work centers on **Chinese Hamster Ovary (CHO) cell** process development for recombinant protein and biotherapeutic production. Core focus areas:
+
+- Fed-batch process design and metabolic monitoring (glucose, lactate, glutamine via YSI 2950)
+- Clone selection using flow cytometry and sweetspot productivity analysis
+- Integration of real-time analytical data into process control and decision-making
+- Building open-source tools to eliminate human error in high-frequency lab calculations, ensuring reproducibility across research groups
 
 ---
 
@@ -104,4 +129,4 @@ My work spans from **fed-batch and perfusion bioreactor** operation to building 
 
 ---
 
-<div align="center"><i>Building the future of biotechnology, one commit at a time.</i></div>
+<div align="center"><i>Bridging wet-lab science and software — one reproducible workflow at a time.</i></div>
