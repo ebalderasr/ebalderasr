@@ -3,1002 +3,688 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emiliano Balderas Ramírez | Bioengineer and Programmer</title>
-  <meta
-    name="description"
-    content="Emiliano Balderas Ramírez is a bioengineer, programmer, and PhD candidate at IBt-UNAM building reproducible software for bioprocessing, laboratory analytics, and scientific workflows."
-  />
-  <meta
-    name="keywords"
-    content="Emiliano Balderas Ramírez, bioengineer, programmer, CHO, bioprocessing, UNAM, Python, scientific software, GitHub Pages, HostCell"
-  />
+
+  <!-- Primary SEO -->
+  <title>Emiliano Balderas — Bioengineer, Programmer & PhD Candidate | IBt-UNAM</title>
+  <meta name="description" content="Bioengineer, programmer, and PhD candidate at IBt-UNAM building scientific software for upstream bioprocessing, laboratory analytics, and reproducible workflows across CHO, S. cerevisiae, and E. coli systems." />
+  <meta name="keywords" content="bioengineer, programmer, scientific software, CHO cell culture, bioprocessing, Python, GitHub Pages, molecular biology, YSI 2950, data science, UNAM, HostCell" />
   <meta name="author" content="Emiliano Balderas Ramírez" />
   <link rel="canonical" href="https://ebalderasr.github.io/ebalderasr/" />
 
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Emiliano Balderas Ramírez | Bioengineer and Programmer" />
-  <meta
-    property="og:description"
-    content="Bioengineer and PhD candidate at IBt-UNAM building reproducible software for wet-lab science, bioprocessing, and data analysis."
-  />
-  <meta property="og:url" content="https://ebalderasr.github.io/ebalderasr/" />
-  <meta property="og:image" content="https://ebalderasr.github.io/ebalderasr/assets/profile.jpg" />
+  <!-- Open Graph (LinkedIn / WhatsApp / Slack previews) -->
+  <meta property="og:type"        content="profile" />
+  <meta property="og:title"       content="Emiliano Balderas — Bioengineer, Programmer & PhD Candidate" />
+  <meta property="og:description" content="Bioengineer and programmer at IBt-UNAM building reproducible tools for wet-lab science, bioprocessing, and data analysis." />
+  <meta property="og:url"         content="https://ebalderasr.github.io/ebalderasr/" />
+  <meta property="og:site_name"   content="Emiliano Balderas Portfolio" />
+  <meta property="profile:first_name" content="Emiliano" />
+  <meta property="profile:last_name"  content="Balderas" />
+  <meta property="profile:username"   content="ebalderasr" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Emiliano Balderas Ramírez | Bioengineer and Programmer" />
-  <meta
-    name="twitter:description"
-    content="Scientific software, bioprocessing, CHO workflows, and reproducible analysis tools."
-  />
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary" />
+  <meta name="twitter:title"       content="Emiliano Balderas — Bioengineer, Programmer & PhD Candidate" />
+  <meta name="twitter:description" content="Scientific software, wet-lab workflows, CHO bioprocessing, data science, and reproducible lab tools." />
 
+  <!-- JSON-LD Structured Data (Google indexing) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Emiliano Balderas Ramírez",
-    "jobTitle": "Bioengineer and Programmer",
-    "description": "Bioengineer, programmer, and PhD candidate at Instituto de Biotecnología, UNAM building software for reproducible lab work and bioprocess analysis.",
+    "jobTitle": "Bioengineer, Programmer & PhD Candidate",
+    "description": "Bioengineer and PhD candidate in Biochemical Sciences at IBt-UNAM building scientific software for reproducible workflows in upstream bioprocessing, molecular biology, and laboratory analytics.",
     "url": "https://ebalderasr.github.io/ebalderasr/",
-    "image": "https://ebalderasr.github.io/ebalderasr/assets/profile.jpg",
     "sameAs": [
       "https://github.com/ebalderasr",
       "https://www.linkedin.com/in/emilianobalderas/"
     ],
     "affiliation": {
       "@type": "Organization",
-      "name": "Instituto de Biotecnología, UNAM"
+      "name": "Instituto de Biotecnología, UNAM",
+      "url": "https://www.ibt.unam.mx/"
     },
     "knowsAbout": [
-      "Upstream bioprocessing",
-      "CHO cell culture",
+      "Upstream Bioprocessing",
+      "CHO Cell Culture",
       "Saccharomyces cerevisiae",
       "Escherichia coli",
-      "Molecular biology",
+      "Molecular Biology",
+      "Scientific Software",
+      "Laboratory Reproducibility",
+      "Bioprocess Data Science",
       "Python",
-      "Scientific software",
-      "Data science",
-      "GitHub Pages",
-      "Laboratory reproducibility"
-    ]
+      "scikit-learn",
+      "Pandas",
+      "Statistical Modeling",
+      "CAR-T Cell Therapy",
+      "Metabolic Engineering"
+    ],
+    "email": "ebalderas@live.com.mx",
+    "address": { "@type": "PostalAddress", "addressCountry": "MX", "addressLocality": "México" }
   }
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     :root {
-      --bg: #f5f0e8;
-      --paper: rgba(255, 251, 245, 0.84);
-      --paper-strong: #fffaf3;
-      --ink: #1c1a18;
-      --muted: #5d564f;
-      --line: rgba(28, 26, 24, 0.12);
-      --accent: #a43b20;
-      --accent-deep: #7b2814;
-      --accent-soft: #f4d5c9;
-      --olive: #335c4a;
-      --olive-soft: #d8e3dd;
-      --gold: #c58a22;
-      --shadow: 0 18px 45px rgba(74, 45, 20, 0.12);
-      --radius-xl: 28px;
-      --radius-lg: 22px;
-      --radius-md: 16px;
-      --max: 1120px;
+      --blue:       #007AFF;
+      --blue-light: #3395FF;
+      --indigo:     #5856D6;
+      --teal:       #30B0C7;
+      --green:      #34C759;
+      --bg:         #F2F2F7;
+      --surface:    rgba(255,255,255,0.72);
+      --border:     rgba(0,0,0,0.08);
+      --text-1:     #1C1C1E;
+      --text-2:     #3C3C43;
+      --text-3:     #8E8E93;
+      --radius-lg:  22px;
+      --radius-md:  16px;
+      --radius-sm:  10px;
+      --shadow-sm:  0 2px 12px rgba(0,0,0,0.07);
+      --shadow-md:  0 8px 32px rgba(0,0,0,0.10);
+      --shadow-lg:  0 20px 60px rgba(0,0,0,0.12);
+      --blur:       blur(24px);
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    html { scroll-behavior: smooth; }
     body {
-      margin: 0;
-      font-family: "IBM Plex Sans", sans-serif;
-      color: var(--ink);
-      background:
-        radial-gradient(circle at top left, rgba(197, 138, 34, 0.14), transparent 28%),
-        radial-gradient(circle at 85% 18%, rgba(164, 59, 32, 0.14), transparent 22%),
-        linear-gradient(180deg, #f7f2ea 0%, #f2ece3 45%, #efe8de 100%);
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+      background: var(--bg); color: var(--text-1);
+      -webkit-font-smoothing: antialiased;
     }
 
-    a {
-      color: inherit;
-    }
-
-    img {
-      display: block;
-      max-width: 100%;
-    }
-
-    .page-shell {
-      position: relative;
-      overflow: hidden;
-    }
-
-    .page-shell::before,
-    .page-shell::after {
-      content: "";
-      position: fixed;
-      inset: auto;
-      pointer-events: none;
-      border-radius: 999px;
-      filter: blur(18px);
-      opacity: 0.5;
-      z-index: 0;
-    }
-
-    .page-shell::before {
-      width: 18rem;
-      height: 18rem;
-      top: 5rem;
-      right: -4rem;
-      background: rgba(164, 59, 32, 0.12);
-    }
-
-    .page-shell::after {
-      width: 20rem;
-      height: 20rem;
-      bottom: 8rem;
-      left: -6rem;
-      background: rgba(51, 92, 74, 0.12);
-    }
-
-    .nav-wrap {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      backdrop-filter: blur(18px);
-      background: rgba(245, 240, 232, 0.75);
-      border-bottom: 1px solid var(--line);
-    }
-
+    /* ─── NAV ─────────────────────────────────────────────── */
     nav {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 1rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
+      position: fixed; top: 16px; left: 50%; transform: translateX(-50%);
+      z-index: 100;
+      display: flex; align-items: center; gap: 6px;
+      background: rgba(255,255,255,0.78);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border);
+      border-radius: 999px; padding: 8px 16px;
+      box-shadow: var(--shadow-md); white-space: nowrap;
     }
-
-    .brand {
-      font-family: "Fraunces", serif;
-      font-size: 1.05rem;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      text-decoration: none;
+    nav a {
+      text-decoration: none; color: var(--text-2);
+      font-size: 13px; font-weight: 500;
+      padding: 5px 12px; border-radius: 999px;
+      transition: background 0.2s, color 0.2s;
     }
+    nav a:hover { background: rgba(0,122,255,0.10); color: var(--blue); }
+    nav a.active { background: var(--blue); color: #fff; }
 
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+    /* ─── HERO ────────────────────────────────────────────── */
+    #hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center; padding: 120px 24px 80px;
+      position: relative; overflow: hidden;
     }
-
-    .nav-links a {
-      text-decoration: none;
-      font-size: 0.95rem;
-      color: var(--muted);
-      padding: 0.55rem 0.9rem;
-      border-radius: 999px;
+    #hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0,122,255,0.18) 0%, transparent 70%),
+                  radial-gradient(ellipse 60% 50% at 85% 60%, rgba(88,86,214,0.13) 0%, transparent 60%),
+                  radial-gradient(ellipse 50% 40% at 10% 80%, rgba(48,176,199,0.12) 0%, transparent 60%);
     }
-
-    .nav-links a:hover,
-    .nav-links a:focus-visible {
-      background: rgba(164, 59, 32, 0.08);
-      color: var(--accent-deep);
-      outline: none;
-    }
-
-    main,
-    footer {
+    .hero-avatar {
+      width: 128px; height: 128px; border-radius: 50%;
+      object-fit: cover; object-position: center top;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 32px rgba(0,122,255,0.30);
+      border: 3px solid rgba(0,122,255,0.22);
       position: relative;
-      z-index: 1;
     }
-
-    section {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 4.5rem 1.5rem;
+    .hero-tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(52,199,89,0.10);
+      border: 1px solid rgba(52,199,89,0.25);
+      border-radius: 999px; padding: 5px 14px;
+      font-size: 13px; font-weight: 500; color: #1A7F37;
+      margin-bottom: 20px; position: relative;
     }
-
-    .hero {
-      min-height: calc(100vh - 78px);
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      align-items: center;
-      gap: 2rem;
-      padding-top: 3.5rem;
+    h1 {
+      font-size: clamp(36px, 6vw, 64px);
+      font-weight: 700; letter-spacing: -1.5px; line-height: 1.05;
+      background: linear-gradient(135deg, var(--text-1) 40%, var(--blue));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; position: relative; margin-bottom: 16px;
     }
-
-    .eyebrow,
-    .section-kicker {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.55rem;
-      padding: 0.45rem 0.85rem;
-      border-radius: 999px;
-      background: rgba(255, 250, 243, 0.88);
-      border: 1px solid rgba(164, 59, 32, 0.14);
-      color: var(--accent-deep);
-      font-size: 0.82rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
+    .hero-sub {
+      font-size: clamp(15px, 2.5vw, 19px);
+      color: var(--text-2); font-weight: 400; max-width: 580px;
+      line-height: 1.6; position: relative; margin-bottom: 16px;
     }
-
-    .eyebrow::before,
-    .section-kicker::before {
-      content: "";
-      width: 0.55rem;
-      height: 0.55rem;
-      border-radius: 999px;
-      background: linear-gradient(135deg, var(--accent), var(--gold));
+    .hero-roles {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      justify-content: center; position: relative; margin-bottom: 32px;
     }
-
-    .hero h1,
-    .section-title {
-      font-family: "Fraunces", serif;
-      line-height: 0.98;
-      letter-spacing: -0.03em;
-      margin: 1rem 0 0;
+    .role-pill {
+      font-size: 12px; font-weight: 500; padding: 4px 12px;
+      border-radius: 999px; background: rgba(0,122,255,0.08);
+      color: var(--blue); border: 1px solid rgba(0,122,255,0.18);
     }
-
-    .hero h1 {
-      font-size: clamp(3.2rem, 9vw, 6.6rem);
-      max-width: 9ch;
-    }
-
-    .hero h1 span {
-      display: block;
-      color: var(--accent-deep);
-    }
-
-    .hero-lead {
-      max-width: 42rem;
-      margin: 1.5rem 0 0;
-      font-size: 1.08rem;
-      line-height: 1.75;
-      color: var(--muted);
-    }
-
     .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.9rem;
-      margin-top: 1.75rem;
+      display: flex; gap: 12px; flex-wrap: wrap;
+      justify-content: center; position: relative;
     }
-
     .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.55rem;
-      min-height: 48px;
-      padding: 0.8rem 1.25rem;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: 600;
-      border: 1px solid transparent;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 12px 24px; border-radius: 999px;
+      font-size: 15px; font-weight: 600; text-decoration: none;
+      transition: transform 0.18s, box-shadow 0.18s;
     }
-
-    .btn:hover,
-    .btn:focus-visible {
-      transform: translateY(-1px);
-      outline: none;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, var(--accent), var(--accent-deep));
-      color: #fff9f4;
-      box-shadow: 0 14px 30px rgba(123, 40, 20, 0.22);
-    }
-
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--blue); color: #fff; box-shadow: 0 4px 20px rgba(0,122,255,0.38); }
+    .btn-primary:hover { box-shadow: 0 8px 28px rgba(0,122,255,0.45); }
     .btn-secondary {
-      background: rgba(255, 250, 243, 0.82);
-      border-color: var(--line);
-      color: var(--ink);
+      background: var(--surface);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border); color: var(--text-1); box-shadow: var(--shadow-sm);
     }
-
-    .hero-notes {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0.85rem;
-      margin-top: 2rem;
+    .hero-scroll {
+      position: absolute; bottom: 36px;
+      display: flex; flex-direction: column; align-items: center;
+      gap: 6px; color: var(--text-3); font-size: 12px;
+      animation: bounce 2.4s ease-in-out infinite;
     }
+    @keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
 
-    .note-card,
-    .panel,
-    .project-card,
-    .contact-card {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow);
-    }
-
-    .note-card {
-      padding: 1rem 1.1rem;
-    }
-
-    .note-card strong {
-      display: block;
-      font-size: 1.2rem;
-      color: var(--ink);
-    }
-
-    .note-card span {
-      display: block;
-      margin-top: 0.2rem;
-      color: var(--muted);
-      font-size: 0.92rem;
-      line-height: 1.45;
-    }
-
-    .hero-visual {
-      position: relative;
-      padding: 1.2rem;
-      background: linear-gradient(180deg, rgba(255, 250, 243, 0.95), rgba(243, 232, 220, 0.92));
-      border-radius: var(--radius-xl);
-      border: 1px solid rgba(28, 26, 24, 0.08);
-      box-shadow: 0 24px 55px rgba(79, 48, 21, 0.18);
-    }
-
-    .hero-visual::before {
-      content: "";
-      position: absolute;
-      inset: 1rem;
-      border-radius: calc(var(--radius-xl) - 0.5rem);
-      border: 1px dashed rgba(164, 59, 32, 0.18);
-      pointer-events: none;
-    }
-
-    .portrait {
-      width: min(100%, 420px);
-      aspect-ratio: 4 / 5;
-      object-fit: cover;
-      object-position: center top;
-      border-radius: 22px;
-      margin: 0 auto;
-      box-shadow: 0 18px 45px rgba(56, 41, 30, 0.18);
-    }
-
-    .visual-caption {
-      margin-top: 1rem;
-      padding: 1rem 1.1rem;
-      background: rgba(255, 250, 243, 0.92);
-      border-radius: 18px;
-      border: 1px solid rgba(28, 26, 24, 0.08);
-    }
-
-    .visual-caption strong {
-      display: block;
-      font-size: 1rem;
-    }
-
-    .visual-caption p {
-      margin: 0.45rem 0 0;
-      color: var(--muted);
-      line-height: 1.6;
-      font-size: 0.95rem;
-    }
-
-    .section-head {
-      max-width: 44rem;
-      margin-bottom: 2rem;
-    }
-
-    .section-title {
-      font-size: clamp(2.3rem, 5vw, 4rem);
-    }
-
-    .section-copy {
-      margin-top: 1rem;
-      color: var(--muted);
-      line-height: 1.8;
-      font-size: 1.02rem;
-    }
-
-    .about-grid,
-    .skills-grid,
-    .projects-grid,
-    .contact-grid {
-      display: grid;
-      gap: 1.1rem;
-    }
-
-    .about-grid {
-      grid-template-columns: 1.25fr 0.75fr;
-      align-items: start;
-    }
-
-    .panel {
-      padding: 1.45rem;
-    }
-
-    .about-copy p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.85;
-      font-size: 1rem;
-    }
-
-    .about-copy p + p {
-      margin-top: 1rem;
-    }
-
-    .signal-list {
-      display: grid;
-      gap: 0.8rem;
-    }
-
-    .signal {
-      padding: 0.9rem 1rem;
+    /* ─── OPEN TO WORK BANNER ─────────────────────────────── */
+    .otw-banner {
+      background: linear-gradient(135deg, rgba(52,199,89,0.08), rgba(0,122,255,0.08));
+      border: 1px solid rgba(52,199,89,0.25);
       border-radius: var(--radius-md);
-      background: var(--paper-strong);
-      border: 1px solid rgba(28, 26, 24, 0.08);
+      padding: 20px 28px;
+      display: flex; align-items: flex-start; gap: 16px;
+      margin-bottom: 0;
+    }
+    .otw-dot {
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--green); flex-shrink: 0; margin-top: 4px;
+      box-shadow: 0 0 0 3px rgba(52,199,89,0.20);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100% { box-shadow: 0 0 0 3px rgba(52,199,89,0.20); } 50% { box-shadow: 0 0 0 6px rgba(52,199,89,0.08); } }
+    .otw-banner h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+    .otw-banner p  { font-size: 13px; color: var(--text-2); line-height: 1.55; }
+    .otw-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .otw-tag {
+      font-size: 11px; font-weight: 600; padding: 3px 10px;
+      border-radius: 999px; background: rgba(52,199,89,0.10);
+      color: #1A7F37; border: 1px solid rgba(52,199,89,0.25);
     }
 
-    .signal strong {
-      display: block;
-      font-size: 0.98rem;
-      margin-bottom: 0.2rem;
+    /* ─── SECTIONS ────────────────────────────────────────── */
+    section { padding: 100px 24px; max-width: 1000px; margin: 0 auto; }
+    .section-label {
+      font-size: 12px; font-weight: 600; letter-spacing: 1.4px;
+      text-transform: uppercase; color: var(--blue); margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 700; letter-spacing: -0.8px; line-height: 1.1; margin-bottom: 48px;
     }
 
-    .signal span {
-      color: var(--muted);
-      line-height: 1.55;
-      font-size: 0.93rem;
+    /* ─── GLASS CARD ──────────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border); border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm); padding: 32px;
+      transition: transform 0.22s, box-shadow 0.22s;
     }
+    .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
 
-    .chip-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.65rem;
-      margin-top: 1.25rem;
+    /* ─── ABOUT ───────────────────────────────────────────── */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    @media (max-width: 640px) { .about-grid { grid-template-columns: 1fr; } }
+    .about-main { grid-column: span 2; }
+    @media (max-width: 640px) { .about-main { grid-column: span 1; } }
+    .about-main p { font-size: 17px; line-height: 1.75; color: var(--text-2); }
+    .about-main p + p { margin-top: 14px; }
+    .about-main strong { color: var(--text-1); }
+    .stat-card {
+      display: flex; flex-direction: column; gap: 4px;
+      background: var(--surface);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border); border-radius: var(--radius-md);
+      padding: 24px; box-shadow: var(--shadow-sm);
     }
+    .stat-num { font-size: 32px; font-weight: 700; color: var(--blue); letter-spacing: -1px; }
+    .stat-label { font-size: 13px; color: var(--text-3); font-weight: 500; }
 
-    .chip {
-      padding: 0.55rem 0.9rem;
-      border-radius: 999px;
-      background: var(--paper-strong);
-      border: 1px solid rgba(28, 26, 24, 0.08);
-      color: var(--ink);
-      font-size: 0.9rem;
-      font-weight: 500;
+    /* ─── FOCUS CARDS ─────────────────────────────────────── */
+    .focus-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 16px; }
+    .focus-card {
+      background: var(--surface);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border); border-radius: var(--radius-md);
+      padding: 24px; box-shadow: var(--shadow-sm);
+      transition: transform 0.22s, box-shadow 0.22s;
     }
+    .focus-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+    .focus-icon { font-size: 28px; margin-bottom: 12px; width: 52px; height: 52px; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; }
+    .focus-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+    .focus-card p  { font-size: 13px; color: var(--text-3); line-height: 1.55; }
 
-    .skills-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* ─── TECH STACK ──────────────────────────────────────── */
+    .tech-category { margin-bottom: 28px; }
+    .tech-category-label { font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
+    .tech-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tech-pill {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: var(--surface);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border); border-radius: 999px;
+      padding: 7px 14px; font-size: 13px; font-weight: 500; color: var(--text-1);
+      box-shadow: var(--shadow-sm); transition: transform 0.18s, box-shadow 0.18s;
     }
+    .tech-pill:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+    .tech-pill span.dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 
-    .skill-group {
-      padding: 1.6rem;
+    /* ─── PROJECTS ────────────────────────────────────────── */
+    .projects-section-label {
+      font-size: 13px; font-weight: 600; color: var(--text-3);
+      text-transform: uppercase; letter-spacing: 1px;
+      margin-bottom: 16px; margin-top: 48px;
     }
-
-    .skill-group h3 {
-      margin: 0;
-      font-family: "Fraunces", serif;
-      font-size: 1.6rem;
-    }
-
-    .skill-group p {
-      margin: 0.8rem 0 1rem;
-      color: var(--muted);
-      line-height: 1.75;
-    }
-
-    .skill-list {
-      display: grid;
-      gap: 0.75rem;
-    }
-
-    .skill-item {
-      padding: 0.85rem 0.95rem;
-      border-left: 4px solid var(--accent);
-      background: rgba(255, 250, 243, 0.92);
-      border-radius: 0 14px 14px 0;
-    }
-
-    .skill-item:nth-child(2n) {
-      border-left-color: var(--olive);
-    }
-
-    .skill-item strong {
-      display: block;
-      margin-bottom: 0.15rem;
-      font-size: 0.98rem;
-    }
-
-    .skill-item span {
-      color: var(--muted);
-      line-height: 1.55;
-      font-size: 0.93rem;
-    }
-
-    .projects-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
+    .projects-section-label:first-of-type { margin-top: 0; }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: 16px; }
     .project-card {
-      padding: 1.55rem;
-      text-decoration: none;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      background: var(--surface);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px;
+      box-shadow: var(--shadow-sm); text-decoration: none; color: inherit;
+      display: flex; flex-direction: column; gap: 10px;
+      transition: transform 0.22s, box-shadow 0.22s;
     }
-
-    .project-card:hover,
-    .project-card:focus-visible {
-      transform: translateY(-3px);
-      border-color: rgba(164, 59, 32, 0.22);
-      outline: none;
+    .project-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .project-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+    .project-icon { font-size: 22px; }
+    .project-arrow { color: var(--text-3); font-size: 18px; flex-shrink: 0; transition: transform 0.2s, color 0.2s; }
+    .project-card:hover .project-arrow { transform: translate(2px, -2px); color: var(--blue); }
+    .project-card h3 { font-size: 16px; font-weight: 600; }
+    .project-card p  { font-size: 13px; color: var(--text-3); line-height: 1.55; flex: 1; }
+    .project-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+    .tag { font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 999px; background: rgba(0,122,255,0.08); color: var(--blue); border: 1px solid rgba(0,122,255,0.15); }
+    .hostcell-banner {
+      background: linear-gradient(135deg, rgba(0,122,255,0.10), rgba(88,86,214,0.10));
+      border: 1px solid rgba(0,122,255,0.18); border-radius: var(--radius-md);
+      padding: 20px 24px; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 14px;
     }
-
-    .project-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: 0.9rem;
+    .hostcell-banner .badge {
+      background: linear-gradient(135deg, var(--blue), var(--indigo));
+      color: #fff; font-size: 12px; font-weight: 600;
+      padding: 4px 12px; border-radius: 999px; white-space: nowrap;
     }
+    .hostcell-banner p { font-size: 14px; color: var(--text-2); line-height: 1.5; }
 
-    .project-index {
-      font-family: "Fraunces", serif;
-      font-size: 2rem;
-      color: rgba(164, 59, 32, 0.4);
-    }
-
-    .project-kind {
-      font-size: 0.82rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--accent-deep);
-    }
-
-    .project-card h3 {
-      margin: 0;
-      font-size: 1.35rem;
-    }
-
-    .project-card p {
-      margin: 0.8rem 0 1rem;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    .tag-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.55rem;
-    }
-
-    .tag {
-      padding: 0.4rem 0.72rem;
-      border-radius: 999px;
-      background: rgba(164, 59, 32, 0.08);
-      color: var(--accent-deep);
-      font-size: 0.82rem;
-      font-weight: 600;
-    }
-
-    .contact-grid {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-
+    /* ─── CONTACT ─────────────────────────────────────────── */
+    .contact-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap: 16px; }
     .contact-card {
-      padding: 1.25rem;
-      text-decoration: none;
-      min-height: 100%;
-      transition: transform 0.18s ease, box-shadow 0.18s ease;
+      background: var(--surface);
+      backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px;
+      box-shadow: var(--shadow-sm); text-decoration: none; color: inherit;
+      display: flex; align-items: center; gap: 16px;
+      transition: transform 0.22s, box-shadow 0.22s;
     }
+    .contact-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+    .contact-icon { width: 48px; height: 48px; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
+    .contact-card .label { font-size: 12px; color: var(--text-3); font-weight: 500; margin-bottom: 2px; }
+    .contact-card .value { font-size: 14px; font-weight: 600; }
 
-    .contact-card:hover,
-    .contact-card:focus-visible {
-      transform: translateY(-2px);
-      outline: none;
-    }
+    /* ─── FOOTER ──────────────────────────────────────────── */
+    footer { text-align: center; padding: 40px 24px 60px; color: var(--text-3); font-size: 13px; line-height: 1.7; border-top: 1px solid var(--border); }
+    footer a { color: var(--blue); text-decoration: none; }
 
-    .contact-label {
-      display: block;
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .contact-value {
-      display: block;
-      margin-top: 0.65rem;
-      font-size: 1rem;
-      line-height: 1.55;
-      font-weight: 600;
-    }
-
-    footer {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 0 1.5rem 3rem;
-    }
-
-    .footer-box {
-      border-top: 1px solid var(--line);
-      padding-top: 1.4rem;
-      color: var(--muted);
-      line-height: 1.7;
-      font-size: 0.95rem;
-    }
-
-    .reveal {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-
-    .reveal.is-visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    @media (max-width: 980px) {
-      .hero,
-      .about-grid,
-      .skills-grid,
-      .projects-grid,
-      .contact-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero {
-        min-height: auto;
-        padding-top: 2.5rem;
-      }
-
-      .hero-visual {
-        order: -1;
-      }
-    }
-
-    @media (max-width: 640px) {
-      nav {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .nav-links {
-        width: 100%;
-      }
-
-      .hero-notes {
-        grid-template-columns: 1fr;
-      }
-
-      section {
-        padding: 3.75rem 1rem;
-      }
-    }
+    /* ─── ANIMATIONS ──────────────────────────────────────── */
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+    .divider { height: 1px; background: var(--border); max-width: 1000px; margin: 0 auto; }
   </style>
 </head>
 <body>
-  <div class="page-shell">
-    <div class="nav-wrap">
-      <nav>
-        <a class="brand" href="#top">Emiliano Balderas Ramírez</a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero"     class="active">Home</a>
+    <a href="#about"              >About</a>
+    <a href="#projects"           >Projects</a>
+    <a href="#contact"            >Contact</a>
+  </nav>
+
+  <!-- HERO -->
+  <div id="hero">
+    <img
+      class="hero-avatar"
+      src="assets/profile.jpg"
+      alt="Emiliano Balderas Ramírez — Instituto de Biotecnología, UNAM"
+      loading="eager"
+    />
+    <div class="hero-tag">
+      <span style="width:7px;height:7px;border-radius:50%;background:#34C759;display:inline-block"></span>
+      Bioengineering + scientific software
     </div>
-
-    <main id="top">
-      <section class="hero">
-        <div class="reveal">
-          <div class="eyebrow">Bioengineer and programmer</div>
-          <h1>Science at the bench, <span>software in the loop.</span></h1>
-          <p class="hero-lead">
-            I am Emiliano Balderas Ramírez, a Bioengineer and PhD Candidate in Biochemical Sciences at
-            Instituto de Biotecnología, UNAM. I work across CHO, <em>S. cerevisiae</em>, and <em>E. coli</em>
-            systems while building software that turns fragile lab routines into reproducible workflows.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">See featured projects</a>
-            <a class="btn btn-secondary" href="https://github.com/ebalderasr" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/in/emilianobalderas/" target="_blank" rel="noopener">LinkedIn</a>
-          </div>
-          <div class="hero-notes">
-            <div class="note-card">
-              <strong>HostCell mindset</strong>
-              <span>Scientific equity through tools that reduce error and increase reproducibility.</span>
-            </div>
-            <div class="note-card">
-              <strong>Programming focus</strong>
-              <span>Browser-first analysis apps, Python pipelines, and lab software with practical utility.</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-visual reveal">
-          <img
-            class="portrait"
-            src="assets/profile.jpg"
-            alt="Emiliano Balderas Ramírez at Instituto de Biotecnología, UNAM"
-          />
-          <div class="visual-caption">
-            <strong>Researcher, developer, and community builder</strong>
-            <p>
-              My projects are driven by the same question: how do we make routine scientific work more
-              reliable, faster to execute, and easier to share across labs?
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="about">
-        <div class="section-head reveal">
-          <div class="section-kicker">About</div>
-          <h2 class="section-title">One profile, one message.</h2>
-          <p class="section-copy">
-            This site mirrors the same core story behind HostCell: I am a bioengineer and programmer
-            working where upstream bioprocessing, molecular biology, and software development meet.
-          </p>
-        </div>
-
-        <div class="about-grid">
-          <div class="panel about-copy reveal">
-            <p>
-              I am a Bioengineer and PhD Candidate in Biochemical Sciences at Instituto de Biotecnología,
-              UNAM, working under Dr. Tonatiuh Ramírez. My work spans upstream bioprocessing with CHO,
-              <em>S. cerevisiae</em>, and <em>E. coli</em> systems; molecular biology; and software
-              development for scientific workflows.
-            </p>
-            <p>
-              Many of the tools I build come from repetitive, high-stakes calculations in a PhD routine
-              where a single arithmetic mistake can cost days of culture work. What begins as a local
-              script often becomes a browser-based application designed to reduce human error and improve
-              reproducibility.
-            </p>
-            <p>
-              Beyond research, I served for more than three years as Coordinator of the Mexican
-              Bioimaging Workshops, a collaborative initiative supported by the Chan Zuckerberg Initiative,
-              Leica, UNAM, and CONACYT. That experience shaped a lasting conviction: access to good tools
-              is part of scientific access itself.
-            </p>
-            <div class="chip-list">
-              <span class="chip">Upstream bioprocessing</span>
-              <span class="chip">CHO, S. cerevisiae, E. coli</span>
-              <span class="chip">Molecular biology</span>
-              <span class="chip">Python and data science</span>
-              <span class="chip">GitHub Pages apps</span>
-              <span class="chip">Scientific reproducibility</span>
-            </div>
-          </div>
-
-          <div class="signal-list reveal">
-            <div class="signal">
-              <strong>Research base</strong>
-              <span>Instituto de Biotecnología, UNAM, with day-to-day work grounded in experimental bioprocessing.</span>
-            </div>
-            <div class="signal">
-              <strong>Software angle</strong>
-              <span>Scientific apps, browser workflows, and data pipelines for real laboratory decisions.</span>
-            </div>
-            <div class="signal">
-              <strong>Community experience</strong>
-              <span>MBW coordination and open knowledge work across research communities in Mexico.</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills">
-        <div class="section-head reveal">
-          <div class="section-kicker">Skills</div>
-          <h2 class="section-title">Shared expertise across bench and code.</h2>
-          <p class="section-copy">
-            The same skills highlighted in HostCell appear here too, just framed with a stronger emphasis
-            on programming and scientific software.
-          </p>
-        </div>
-
-        <div class="skills-grid">
-          <div class="panel skill-group reveal">
-            <h3>Bioengineering and wet lab</h3>
-            <p>
-              Experimental work across cell culture, bioprocess development, analytics, and molecular
-              biology, with software used as a practical extension of the bench.
-            </p>
-            <div class="skill-list">
-              <div class="skill-item">
-                <strong>Biological systems</strong>
-                <span>CHO, <em>S. cerevisiae</em>, and <em>E. coli</em> across research and process workflows.</span>
-              </div>
-              <div class="skill-item">
-                <strong>Bioprocess operations</strong>
-                <span>Batch and fed-batch culture, shake flasks, stirred-tank bioreactors, and process optimization.</span>
-              </div>
-              <div class="skill-item">
-                <strong>Molecular biology</strong>
-                <span>Genome editing, mutant construction, plasmid assembly, and reproducible workflow design.</span>
-              </div>
-              <div class="skill-item">
-                <strong>Laboratory analytics</strong>
-                <span>YSI workflows, flow cytometry, growth kinetics, and decision support around experimental data.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="panel skill-group reveal">
-            <h3>Programming and data science</h3>
-            <p>
-              A software stack focused on turning scientific reasoning into reliable interfaces, tested
-              pipelines, and analysis tools that work in the environments labs actually use.
-            </p>
-            <div class="skill-list">
-              <div class="skill-item">
-                <strong>Languages</strong>
-                <span>Python, JavaScript, SQL, HTML, and CSS for scientific and browser-based applications.</span>
-              </div>
-              <div class="skill-item">
-                <strong>Data stack</strong>
-                <span>pandas, NumPy, SciPy, scikit-learn, matplotlib, seaborn, and Jupyter-driven analysis.</span>
-              </div>
-              <div class="skill-item">
-                <strong>Scientific web apps</strong>
-                <span>GitHub Pages, client-side processing, offline-first design, and practical UX for lab users.</span>
-              </div>
-              <div class="skill-item">
-                <strong>Development workflow</strong>
-                <span>Open-source collaboration, AI-assisted development, and iterative tool design from real lab needs.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects">
-        <div class="section-head reveal">
-          <div class="section-kicker">Projects</div>
-          <h2 class="section-title">Four projects that define the profile.</h2>
-          <p class="section-copy">
-            These are the repositories I want front and center because together they show the full arc:
-            lab problems, scientific analysis, software delivery, and bioprocess modeling.
-          </p>
-        </div>
-
-        <div class="projects-grid">
-          <a class="project-card reveal" href="https://github.com/ebalderasr/HostCell" target="_blank" rel="noopener">
-            <div class="project-top">
-              <span class="project-index">01</span>
-              <span class="project-kind">Platform</span>
-            </div>
-            <h3>HostCell</h3>
-            <p>
-              The main expression of my work as a bioengineer and programmer: a platform of practical lab
-              tools built to reduce calculation errors, improve reproducibility, and make good workflows
-              easier to access.
-            </p>
-            <div class="tag-row">
-              <span class="tag">Scientific software</span>
-              <span class="tag">GitHub Pages</span>
-              <span class="tag">Reproducibility</span>
-            </div>
-          </a>
-
-          <a class="project-card reveal" href="https://github.com/ebalderasr/Clonalyzer-2" target="_blank" rel="noopener">
-            <div class="project-top">
-              <span class="project-index">02</span>
-              <span class="project-kind">Analysis app</span>
-            </div>
-            <h3>Clonalyzer-2</h3>
-            <p>
-              A browser-based kinetics analysis app for CHO fed-batch cultures. It automates parameter
-              calculation, visualization, and export so clone comparison stops living in scattered spreadsheets.
-            </p>
-            <div class="tag-row">
-              <span class="tag">CHO</span>
-              <span class="tag">Kinetics</span>
-              <span class="tag">Client-side analysis</span>
-            </div>
-          </a>
-
-          <a class="project-card reveal" href="https://github.com/ebalderasr/ysi-processor" target="_blank" rel="noopener">
-            <div class="project-top">
-              <span class="project-index">03</span>
-              <span class="project-kind">QC workflow</span>
-            </div>
-            <h3>ysi-processor</h3>
-            <p>
-              A GitHub Pages workflow for YSI 2950 BioSample review, replicate averaging, QC inspection,
-              and export-ready outputs. The app runs in the browser while preserving tested analysis logic.
-            </p>
-            <div class="tag-row">
-              <span class="tag">YSI 2950</span>
-              <span class="tag">QC</span>
-              <span class="tag">Browser app</span>
-            </div>
-          </a>
-
-          <a class="project-card reveal" href="https://github.com/ebalderasr/BioReact-Lite" target="_blank" rel="noopener">
-            <div class="project-top">
-              <span class="project-index">04</span>
-              <span class="project-kind">Modeling</span>
-            </div>
-            <h3>BioReact-Lite</h3>
-            <p>
-              An interactive chemostat simulator for exploring Monod kinetics, reactor dynamics, and local
-              stability analysis. It highlights the computational and educational side of my bioprocess work.
-            </p>
-            <div class="tag-row">
-              <span class="tag">Bioreactors</span>
-              <span class="tag">Simulation</span>
-              <span class="tag">Streamlit</span>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section id="contact">
-        <div class="section-head reveal">
-          <div class="section-kicker">Contact</div>
-          <h2 class="section-title">Reach me through the same channels.</h2>
-          <p class="section-copy">
-            The profile, README, and page now point to the same identity: bioengineer, programmer, and builder of practical scientific tools.
-          </p>
-        </div>
-
-        <div class="contact-grid">
-          <a class="contact-card reveal" href="https://github.com/ebalderasr" target="_blank" rel="noopener">
-            <span class="contact-label">GitHub</span>
-            <span class="contact-value">github.com/ebalderasr</span>
-          </a>
-          <a class="contact-card reveal" href="https://www.linkedin.com/in/emilianobalderas/" target="_blank" rel="noopener">
-            <span class="contact-label">LinkedIn</span>
-            <span class="contact-value">linkedin.com/in/emilianobalderas</span>
-          </a>
-          <a class="contact-card reveal" href="mailto:ebalderas@live.com.mx">
-            <span class="contact-label">Personal email</span>
-            <span class="contact-value">ebalderas@live.com.mx</span>
-          </a>
-          <a class="contact-card reveal" href="mailto:emiliano.balderas@ibt.unam.mx">
-            <span class="contact-label">Institutional email</span>
-            <span class="contact-value">emiliano.balderas@ibt.unam.mx</span>
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-box">
-        Emiliano Balderas Ramírez · Bioengineer and programmer · Instituto de Biotecnología, UNAM
-      </div>
-    </footer>
+    <h1>Emiliano Balderas</h1>
+    <p class="hero-sub">
+      Bioengineer &amp; Programmer · PhD Candidate at <strong>IBt-UNAM</strong> ·
+      CHO, <em>S. cerevisiae</em> &amp; <em>E. coli</em> · scientific software for reproducible lab work
+    </p>
+    <div class="hero-roles">
+      <span class="role-pill">Upstream Bioprocessing</span>
+      <span class="role-pill">Scientific Software</span>
+      <span class="role-pill">Molecular Biology</span>
+      <span class="role-pill">Data Science</span>
+    </div>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+      <a href="https://www.linkedin.com/in/emilianobalderas/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn →</a>
+      <a href="https://github.com/ebalderasr" target="_blank" rel="noopener" class="btn btn-secondary">GitHub →</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
   </div>
 
-  <script>
-    const revealElements = document.querySelectorAll(".reveal");
+  <div class="divider"></div>
 
-    const revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          revealObserver.unobserve(entry.target);
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="fade-in">
+      <div class="section-label">About</div>
+      <div class="section-title">Science meets code.</div>
+    </div>
+
+    <!-- Open to Work Banner -->
+    <div class="otw-banner fade-in" style="margin-bottom:32px">
+      <div class="otw-dot"></div>
+      <div>
+        <h3>Open to opportunities</h3>
+        <p>Building tools and workflows where bioengineering, molecular biology, and programming meet. The emphasis here is software, but the underlying scientific profile is the same one presented in HostCell.</p>
+        <div class="otw-tags">
+          <span class="otw-tag">CHO · S. cerevisiae · E. coli</span>
+          <span class="otw-tag">Scientific Software</span>
+          <span class="otw-tag">Bioprocess Data Science</span>
+          <span class="otw-tag">Molecular Biology</span>
+          <span class="otw-tag">Open Source Lab Tools</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-grid fade-in">
+      <div class="about-main card">
+        <p>
+          I'm a bioengineer and PhD candidate in Biochemical Sciences at the
+          <strong>Instituto de Biotecnología, UNAM</strong>. My work spans
+          <strong>upstream bioprocessing</strong> with <strong>CHO, <em>S. cerevisiae</em>, and <em>E. coli</em></strong>,
+          molecular biology, and software development for scientific workflows.
+          I build tools around the kind of repetitive, high-stakes calculations where a single spreadsheet mistake can cost days of culture work.
+        </p>
+        <p>
+          Beyond the bench, I build <strong>computational tools, browser-based apps, and data science pipelines</strong>
+          that make experimental work more reliable and reproducible. I also served for 3+ years as Coordinator of the
+          <strong>Mexican Bioimaging Workshops (MBW)</strong>, an initiative supported by the <strong>Chan Zuckerberg Initiative (CZI)</strong>,
+          Leica, UNAM, and CONACYT. That experience shaped a lasting conviction: access to good tools is part of scientific access itself.
+        </p>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">16+</span>
+        <span class="stat-label">Public repositories</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Core systems · CHO · S. cerevisiae · E. coli</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">IBt</span>
+        <span class="stat-label">UNAM · Cuernavaca, México</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">MBW</span>
+        <span class="stat-label">3+ years coordinating CZI-supported workshops</span>
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- Research Focus -->
+    <div class="fade-in">
+      <div class="section-label">Expertise</div>
+      <div class="section-title" style="margin-bottom:24px">What I work on.</div>
+    </div>
+    <div class="focus-grid fade-in">
+      <div class="focus-card">
+        <div class="focus-icon" style="background:rgba(0,122,255,0.10)">🔬</div>
+        <h3>Upstream Bioprocessing</h3>
+        <p>Cell culture and process work across CHO, yeast, and bacterial systems, including fed-batch workflows, metabolic monitoring, and experimental decision support.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon" style="background:rgba(48,176,199,0.12)">📊</div>
+        <h3>Bioprocess Data Science</h3>
+        <p>Python pipelines for bioprocess data analysis, visualization, and interpretation, designed to move raw laboratory measurements into usable decisions.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon" style="background:rgba(88,86,214,0.10)">⚙️</div>
+        <h3>Scientific Software</h3>
+        <p>Browser-based applications, offline-ready PWAs, and small workflow tools built to reduce human error in repetitive laboratory tasks.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon" style="background:rgba(52,199,89,0.10)">🧫</div>
+        <h3>Molecular Biology</h3>
+        <p>Genome editing, plasmid assembly, and experimental workflows connected to strain and producer line development.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon" style="background:rgba(255,149,0,0.10)">💊</div>
+        <h3>Reproducible Lab Work</h3>
+        <p>Designing tools that encode calculations correctly once and make them easier to repeat, review, and share across labs.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon" style="background:rgba(255,45,85,0.10)">🧠</div>
+        <h3>Community Leadership</h3>
+        <p>Scientific outreach and coordination experience through MBW, with a strong interest in open access to high-quality technical tools.</p>
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- Tech Stack -->
+    <div class="fade-in">
+      <div class="section-label">Tech Stack</div>
+      <div class="section-title" style="margin-bottom:24px">Tools of the trade.</div>
+    </div>
+    <div class="fade-in">
+      <div class="tech-category">
+        <div class="tech-category-label">Data Science &amp; ML</div>
+        <div class="tech-grid">
+          <span class="tech-pill"><span class="dot" style="background:#3776AB"></span>Python</span>
+          <span class="tech-pill"><span class="dot" style="background:#F37626"></span>Jupyter</span>
+          <span class="tech-pill"><span class="dot" style="background:#013243"></span>NumPy</span>
+          <span class="tech-pill"><span class="dot" style="background:#150458"></span>Pandas</span>
+          <span class="tech-pill"><span class="dot" style="background:#F7931E"></span>scikit-learn</span>
+          <span class="tech-pill"><span class="dot" style="background:#11557C"></span>Matplotlib</span>
+          <span class="tech-pill"><span class="dot" style="background:#4C72B0"></span>Seaborn</span>
+          <span class="tech-pill"><span class="dot" style="background:#8CAAE6"></span>SciPy</span>
+        </div>
+      </div>
+      <div class="tech-category">
+        <div class="tech-category-label">Backend</div>
+        <div class="tech-grid">
+          <span class="tech-pill"><span class="dot" style="background:#009688"></span>FastAPI</span>
+          <span class="tech-pill"><span class="dot" style="background:#4169E1"></span>PostgreSQL</span>
+          <span class="tech-pill"><span class="dot" style="background:#CC2927"></span>SQL</span>
+          <span class="tech-pill"><span class="dot" style="background:#2496ED"></span>Docker</span>
+          <span class="tech-pill"><span class="dot" style="background:#6DB33F"></span>REST API</span>
+          <span class="tech-pill"><span class="dot" style="background:#F05032"></span>Git</span>
+        </div>
+      </div>
+      <div class="tech-category">
+        <div class="tech-category-label">Frontend</div>
+        <div class="tech-grid">
+          <span class="tech-pill"><span class="dot" style="background:#F7DF1E;border:1px solid #ccc"></span>JavaScript</span>
+          <span class="tech-pill"><span class="dot" style="background:#3178C6"></span>TypeScript</span>
+          <span class="tech-pill"><span class="dot" style="background:#61DAFB"></span>React</span>
+          <span class="tech-pill"><span class="dot" style="background:#E34F26"></span>HTML5</span>
+          <span class="tech-pill"><span class="dot" style="background:#1572B6"></span>CSS3</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="fade-in">
+      <div class="section-label">Projects</div>
+      <div class="section-title">Built for the lab.</div>
+    </div>
+
+    <div class="fade-in">
+      <div class="projects-section-label">Featured Projects</div>
+      <div class="projects-grid">
+        <a href="https://github.com/ebalderasr/HostCell" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">🧪</span><span class="project-arrow">↗</span></div>
+          <h3>HostCell</h3>
+          <p>Main platform for practical lab software and the clearest expression of my bioengineering + programming work.</p>
+          <div class="project-tags"><span class="tag">Scientific Software</span><span class="tag">Open Source</span><span class="tag">Lab Tools</span></div>
+        </a>
+        <a href="https://github.com/ebalderasr/Clonalyzer-2" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">🧬</span><span class="project-arrow">↗</span></div>
+          <h3>Clonalyzer-2</h3>
+          <p>Browser-based kinetics analysis for CHO fed-batch cultures with local processing, plots, and exportable outputs.</p>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Pyodide</span></div>
+        </a>
+        <a href="https://github.com/ebalderasr/ysi-processor" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">📊</span><span class="project-arrow">↗</span></div>
+          <h3>ysi-processor</h3>
+          <p>GitHub Pages workflow for YSI 2950 QC, replicate review, averaging, and export-ready results.</p>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Python</span></div>
+        </a>
+        <a href="https://github.com/ebalderasr/BioReact-Lite" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">⚗️</span><span class="project-arrow">↗</span></div>
+          <h3>BioReact-Lite</h3>
+          <p>Interactive chemostat simulator for Monod kinetics, reactor dynamics, and local stability analysis.</p>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Simulation</span></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="fade-in" style="margin-top:48px">
+      <div class="projects-section-label">HostCell Lab Suite</div>
+      <div class="hostcell-banner">
+        <span class="badge">Suite</span>
+        <p>A collection of offline-ready PWA tools designed for bench-side bioprocess workflows — installable, fast, and built for the biosafety cabinet.</p>
+      </div>
+      <div class="projects-grid">
+        <a href="https://github.com/ebalderasr/CellSplit" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">🧪</span><span class="project-arrow">↗</span></div>
+          <h3>CellSplit</h3>
+          <p>Precision cell passaging calculator from Neubauer counts. Computes viable concentration, viability, and C1V1=C2V2 volumes. Offline-ready PWA.</p>
+          <div class="project-tags"><span class="tag">PWA</span><span class="tag">Cell Passaging</span></div>
+        </a>
+        <a href="https://github.com/ebalderasr/PulseGrowth" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">📈</span><span class="project-arrow">↗</span></div>
+          <h3>PulseGrowth</h3>
+          <p>Growth kinetics calculator: specific growth rate (μ), doubling time, IVCD, qGlc/qGln, and simple feed corrections. Installable PWA.</p>
+          <div class="project-tags"><span class="tag">PWA</span><span class="tag">Kinetics</span></div>
+        </a>
+        <a href="https://github.com/ebalderasr/MolarPrep" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">⚖️</span><span class="project-arrow">↗</span></div>
+          <h3>MolarPrep</h3>
+          <p>PWA for molarity calculations, stock solution preparation, and dilution planning in laboratory workflows.</p>
+          <div class="project-tags"><span class="tag">PWA</span><span class="tag">Solutions</span></div>
+        </a>
+        <a href="https://github.com/ebalderasr/DiluteIt" target="_blank" rel="noopener" class="project-card">
+          <div class="project-header"><span class="project-icon">💧</span><span class="project-arrow">↗</span></div>
+          <h3>DiluteIt</h3>
+          <p>Universal dilution calculator PWA (C1V1 = C2V2) for lab workflows, solution preparation, and biotech applications.</p>
+          <div class="project-tags"><span class="tag">PWA</span><span class="tag">Dilutions</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="fade-in">
+      <div class="section-label">Contact</div>
+      <div class="section-title">Let's connect.</div>
+    </div>
+    <div class="contact-grid fade-in">
+      <a href="https://www.linkedin.com/in/emilianobalderas/" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-icon" style="background:rgba(10,102,194,0.10)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </div>
+        <div><div class="label">LinkedIn</div><div class="value">emilianobalderas</div></div>
+      </a>
+      <a href="https://github.com/ebalderasr" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-icon" style="background:rgba(0,0,0,0.06)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#1C1C1E"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </div>
+        <div><div class="label">GitHub</div><div class="value">ebalderasr</div></div>
+      </a>
+      <a href="mailto:ebalderas@live.com.mx" class="contact-card">
+        <div class="contact-icon" style="background:rgba(255,59,48,0.10)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FF3B30" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div><div class="label">Personal Email</div><div class="value">ebalderas@live.com.mx</div></div>
+      </a>
+      <a href="mailto:emiliano.balderas@ibt.unam.mx" class="contact-card">
+        <div class="contact-icon" style="background:rgba(0,122,255,0.10)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007AFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div><div class="label">Institutional Email</div><div class="value">IBt · UNAM</div></div>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Emiliano Balderas Ramírez · Upstream Bioprocess Engineer &amp; Data Scientist · IBt-UNAM · México</p>
+    <p style="margin-top:6px">
+      <a href="https://github.com/ebalderasr">github.com/ebalderasr</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/emilianobalderas/">linkedin.com/in/emilianobalderas</a>
+    </p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll('section, #hero');
+    const navLinks = document.querySelectorAll('nav a');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          navLinks.forEach(a => a.classList.remove('active'));
+          const link = document.querySelector(`nav a[href="#${e.target.id}"]`);
+          if (link) link.classList.add('active');
+        }
+      });
+    }, { threshold: 0.4 });
+    sections.forEach(s => observer.observe(s));
+
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const fadeObserver = new IntersectionObserver(entries => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          fadeObserver.unobserve(e.target);
         }
       });
     }, { threshold: 0.12 });
-
-    revealElements.forEach((element) => revealObserver.observe(element));
+    fadeEls.forEach(el => fadeObserver.observe(el));
   </script>
 </body>
 </html>
