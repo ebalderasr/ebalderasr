@@ -348,6 +348,23 @@
     footer { text-align: center; padding: 40px 24px 60px; color: var(--text-3); font-size: 13px; line-height: 1.7; border-top: 1px solid var(--border); }
     footer a { color: var(--blue); text-decoration: none; }
 
+    /* ─── EXPERTISE DUAL-GROUP LABELS ────────────────────── */
+    .expertise-group-label {
+      display: flex; align-items: center; gap: 10px;
+      margin: 36px 0 18px; font-size: 13px; font-weight: 600;
+      color: var(--text-2); letter-spacing: 0.3px;
+    }
+    .expertise-group-label::before, .expertise-group-label::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+    .expertise-group-label span {
+      padding: 5px 14px; border-radius: 999px;
+      background: rgba(255,255,255,0.85);
+      border: 1px solid var(--border);
+      white-space: nowrap; box-shadow: var(--shadow-sm);
+    }
+    .expertise-group-label:first-child { margin-top: 0; }
+
     /* ─── ANIMATIONS ──────────────────────────────────────── */
     .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
     .fade-in.visible { opacity: 1; transform: translateY(0); }
@@ -464,36 +481,43 @@
       <div class="section-label">Expertise</div>
       <div class="section-title" style="margin-bottom:24px">What I work on.</div>
     </div>
-    <div class="focus-grid fade-in">
-      <div class="focus-card">
-        <div class="focus-icon" style="background:rgba(0,122,255,0.10)">🔬</div>
-        <h3>Upstream Bioprocessing</h3>
-        <p>Cell culture and process work across CHO, yeast, and bacterial systems, including fed-batch workflows, metabolic monitoring, and experimental decision support.</p>
+    <div class="fade-in">
+      <div class="expertise-group-label"><span>🔬 Bioengineering</span></div>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <div class="focus-icon" style="background:rgba(0,122,255,0.10)">🔬</div>
+          <h3>Upstream Bioprocessing</h3>
+          <p>CHO, <em>S. cerevisiae</em>, and <em>E. coli</em> cell culture across batch and fed-batch modes. Bioreactor operation, metabolic monitoring (YSI 2950), and scale-up strategies for recombinant protein production.</p>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon" style="background:rgba(52,199,89,0.10)">🧫</div>
+          <h3>Molecular Biology</h3>
+          <p>Targeted genome editing via CRISPR-Cas9, Cre-LoxP, and homologous recombination. Plasmid assembly using Golden Gate, Gibson, and yeast gap repair — applied to producer cell line construction.</p>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon" style="background:rgba(255,149,0,0.10)">💊</div>
+          <h3>Biotherapeutic Development</h3>
+          <p>Current doctoral research: optimizing CHO producer cell lines for biotherapeutic quality and productivity — maximizing titer while controlling critical quality attributes under Dr. Tonatiuh Ramírez at IBt-UNAM.</p>
+        </div>
       </div>
-      <div class="focus-card">
-        <div class="focus-icon" style="background:rgba(48,176,199,0.12)">📊</div>
-        <h3>Bioprocess Data Science</h3>
-        <p>Python pipelines for bioprocess data analysis, visualization, and interpretation, designed to move raw laboratory measurements into usable decisions.</p>
-      </div>
-      <div class="focus-card">
-        <div class="focus-icon" style="background:rgba(88,86,214,0.10)">⚙️</div>
-        <h3>Scientific Software</h3>
-        <p>Browser-based applications, offline-ready PWAs, and small workflow tools built to reduce human error in repetitive laboratory tasks.</p>
-      </div>
-      <div class="focus-card">
-        <div class="focus-icon" style="background:rgba(52,199,89,0.10)">🧫</div>
-        <h3>Molecular Biology</h3>
-        <p>Genome editing, plasmid assembly, and experimental workflows connected to strain and producer line development.</p>
-      </div>
-      <div class="focus-card">
-        <div class="focus-icon" style="background:rgba(255,149,0,0.10)">💊</div>
-        <h3>Reproducible Lab Work</h3>
-        <p>Designing tools that encode calculations correctly once and make them easier to repeat, review, and share across labs.</p>
-      </div>
-      <div class="focus-card">
-        <div class="focus-icon" style="background:rgba(255,45,85,0.10)">🧠</div>
-        <h3>Community Leadership</h3>
-        <p>Scientific outreach and coordination experience through MBW, with a strong interest in open access to high-quality technical tools.</p>
+
+      <div class="expertise-group-label"><span>💻 Programming & Data Science</span></div>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <div class="focus-icon" style="background:rgba(88,86,214,0.10)">⚙️</div>
+          <h3>Scientific Software</h3>
+          <p>Browser-based applications and offline-ready PWAs built for the bench — from cell passaging calculators to kinetics dashboards. JavaScript, HTML5/CSS3, and service workers for zero-install delivery.</p>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon" style="background:rgba(48,176,199,0.12)">📊</div>
+          <h3>Data Science & Analysis</h3>
+          <p>Python pipelines for bioprocess data: pandas, NumPy, SciPy, matplotlib, seaborn, and scikit-learn. From raw YSI measurements and flow cytometry exports to reproducible, shareable results.</p>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon" style="background:rgba(255,45,85,0.10)">🌐</div>
+          <h3>Open Source & Community</h3>
+          <p>All tools are open source and designed for reproducibility across labs. Former Coordinator of the Mexican Bioimaging Workshops (MBW), funded by the Chan Zuckerberg Initiative — convinced that access to good tools is part of scientific access itself.</p>
+        </div>
       </div>
     </div>
 
@@ -506,7 +530,20 @@
     </div>
     <div class="fade-in">
       <div class="tech-category">
-        <div class="tech-category-label">Data Science &amp; ML</div>
+        <div class="tech-category-label">Bioengineering & Wet-Lab</div>
+        <div class="tech-grid">
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>CHO Cell Culture</span>
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>S. cerevisiae</span>
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>E. coli</span>
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>Fed-batch Bioreactors</span>
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>CRISPR-Cas9</span>
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>Golden Gate · Gibson</span>
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>YSI 2950</span>
+          <span class="tech-pill"><span class="dot" style="background:#006B53"></span>Flow Cytometry</span>
+        </div>
+      </div>
+      <div class="tech-category">
+        <div class="tech-category-label">Scientific Computing</div>
         <div class="tech-grid">
           <span class="tech-pill"><span class="dot" style="background:#3776AB"></span>Python</span>
           <span class="tech-pill"><span class="dot" style="background:#F37626"></span>Jupyter</span>
@@ -519,24 +556,14 @@
         </div>
       </div>
       <div class="tech-category">
-        <div class="tech-category-label">Backend</div>
-        <div class="tech-grid">
-          <span class="tech-pill"><span class="dot" style="background:#009688"></span>FastAPI</span>
-          <span class="tech-pill"><span class="dot" style="background:#4169E1"></span>PostgreSQL</span>
-          <span class="tech-pill"><span class="dot" style="background:#CC2927"></span>SQL</span>
-          <span class="tech-pill"><span class="dot" style="background:#2496ED"></span>Docker</span>
-          <span class="tech-pill"><span class="dot" style="background:#6DB33F"></span>REST API</span>
-          <span class="tech-pill"><span class="dot" style="background:#F05032"></span>Git</span>
-        </div>
-      </div>
-      <div class="tech-category">
-        <div class="tech-category-label">Frontend</div>
+        <div class="tech-category-label">Web & Tools</div>
         <div class="tech-grid">
           <span class="tech-pill"><span class="dot" style="background:#F7DF1E;border:1px solid #ccc"></span>JavaScript</span>
-          <span class="tech-pill"><span class="dot" style="background:#3178C6"></span>TypeScript</span>
-          <span class="tech-pill"><span class="dot" style="background:#61DAFB"></span>React</span>
           <span class="tech-pill"><span class="dot" style="background:#E34F26"></span>HTML5</span>
           <span class="tech-pill"><span class="dot" style="background:#1572B6"></span>CSS3</span>
+          <span class="tech-pill"><span class="dot" style="background:#5856D6"></span>PWA · Service Workers</span>
+          <span class="tech-pill"><span class="dot" style="background:#CC2927"></span>SQL</span>
+          <span class="tech-pill"><span class="dot" style="background:#F05032"></span>Git</span>
         </div>
       </div>
     </div>
@@ -653,7 +680,7 @@
   </section>
 
   <footer>
-    <p>Emiliano Balderas Ramírez · Upstream Bioprocess Engineer &amp; Data Scientist · IBt-UNAM · México</p>
+    <p>Emiliano Balderas Ramírez · Bioengineer &amp; Programmer · PhD Candidate at IBt-UNAM · México</p>
     <p style="margin-top:6px">
       <a href="https://github.com/ebalderasr">github.com/ebalderasr</a>
       &nbsp;·&nbsp;
